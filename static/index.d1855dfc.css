@@ -13828,3 +13828,7 @@ thead>tr.bg-dark>th {
     left: 20px;
     bottom: 50px
 }
+
+div[data-highcharts-chart] {
+    display: block!important
+}

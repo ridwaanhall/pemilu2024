@@ -21411,7 +21411,7 @@ function kf() {
                     borderRadius: 3,
                     center: [null, null],
                     clip: !1,
-                    colorByPoint: !0,
+                    colorByPoint: true,
                     dataLabels: {
                         connectorPadding: 5,
                         connectorShape: "crookedLine",
@@ -23108,7 +23108,7 @@ const zt = Ct(ex, [["render", ax]])
                     }
                 },
                 credits: {
-                    enabled: !1
+                    enabled: !0
                 }
             },
             keys: [],
@@ -45496,7 +45496,7 @@ const RB = {
                     responsive: !0,
                     plotOptions: {
                         series: {
-                            animation: !1
+                            animation: !0
                         }
                     }
                 }
@@ -45567,7 +45567,7 @@ const zB = Ct(RB, [["render", HB]])
                         cursor: "pointer",
                         showInLegend: !0,
                         dataLabels: {
-                            enabled: !1
+                            enabled: !0
                         }
                     }
                 },
